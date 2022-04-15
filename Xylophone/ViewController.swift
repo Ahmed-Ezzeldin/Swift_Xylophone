@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func playButton(_ sender: UIButton) {
         //        print("Sound is playing......");
         //        playSound(  filePath: "Sounds/C", fileName: "wav");
-        print("Sender Tag: ( \(sender.tag) ) ");
+        print("Button Tag: ( \(sender.tag) ) ");
         switch sender.tag {
         case 1:
             playSound(  filePath: "Sounds/C", fileType: "wav");
